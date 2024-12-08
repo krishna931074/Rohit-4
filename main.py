@@ -69,7 +69,7 @@ async def restart_handler(_, m):
 
 #-------------TXT Uploader Commands ---------------
 
-@bot.on_message(filters.command(["ROWDY"]))
+@bot.on_message(filters.command(["Rohit"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(f"**Hey Send txt file**")
     input: Message = await bot.listen(editable.chat.id)
