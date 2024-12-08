@@ -21,7 +21,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from bs4 import BeautifulSoup
 
 bot = Client("bot",
-             bot_token= "", 
+             bot_token= "8159770874:AAGPcn8mX_34bPmnzjMPZsy52HaYZbXBUW8", 
              api_id= 21567814,
              api_hash= "cd7dc5431d449fd795683c550d7bfb7e")
 
@@ -58,7 +58,7 @@ async def run_bot(bot: Client, m: Message):
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hello, **ROWDY**! 🌟\n\n I am your friendly bot 🤖, here to help you download links from your **.txt** file and upload them to Telegram. To get started, simply send me the /ROWDY command and follow a few easy steps.")
+    editable = await m.reply_text("Hello, **Rohit**! 🌟\n\n I am your friendly bot 🤖, here to help you download links from your **.txt** file and upload them to Telegram. To get started, simply send me the /Rohit command and follow a few easy steps.")
 
 
 @bot.on_message(filters.command("stop"))
